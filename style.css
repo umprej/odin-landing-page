@@ -14,10 +14,12 @@ body {
 footer {
     text-align: center;
     margin-top: auto;
+    padding: 30px;
 }
 
 section {
     padding: 10px;
+    margin: 0px auto 30px auto;
 }
 
 .center-column {
@@ -41,7 +43,9 @@ nav {
 .hero {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    /* align-items: baseline; */
+    gap: 60px;
 }
 
 .hero .text-block,
@@ -65,24 +69,19 @@ nav {
 
 .card {
     max-width: 250px;
-    /* padding: 10px; */
     text-align: center;
 }
 
 .card img {
     max-width: 250px;
     border-radius: 20px;
-    border: 4px solid #3882F6
+    border: 4px solid #d55f29
 }
-
-/* .archetype-name {
-}
-
-.archetype-description {
-} */
 
 .quote-card {
-    padding: 60px 200px;
+    margin: 60px auto;
+    max-width: 900px;
+    padding: 10px;
 }
 
 .quote-card q {
@@ -118,7 +117,6 @@ img {
 nav ul {
     display: flex;
     list-style-type: none;
-    flex-wrap: wrap;
 }
 
 li {
@@ -138,21 +136,22 @@ button {
     margin: 5px;
     outline: none;
     border: none;
+    padding: 7px 20px;
 }
 
-.hero button {
-    padding: 7px 20px;
+.call-to-action button {
+    outline: white solid 2px;
 }
 
 /*colors and fonts*/
 
 .dark {
-    background-color: #1f2937;
+    background-color: #1f273b;
     color: #e5e7eb;
 }
 
 .bright-blue {
-    background-color: #3882F6;
+    background-color: #d55f29;
 }
 
 .grey {
