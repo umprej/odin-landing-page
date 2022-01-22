@@ -81,8 +81,22 @@ nav {
 .archetype-description {
 } */
 
+.quote-card {
+    padding: 60px 200px;
+}
+
+.quote-card q {
+    quotes: none;
+}
+
+.quote-card p {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
 .call-to-action {
-    padding: 20px 80px;
+    padding: 30px 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -129,6 +143,7 @@ button {
 .hero button {
     padding: 7px 20px;
 }
+
 /*colors and fonts*/
 
 .dark {
