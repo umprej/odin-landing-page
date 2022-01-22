@@ -71,6 +71,8 @@ nav {
 .card {
     max-width: 250px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img {
