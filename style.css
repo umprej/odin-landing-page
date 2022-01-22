@@ -137,6 +137,12 @@ button {
     outline: none;
     border: none;
     padding: 7px 20px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #6e2909;
+    cursor: pointer;
 }
 
 .call-to-action button {
